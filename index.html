@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ru" id="html">
+  <head>
+    <title>LOFI</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="LOFI как явление в музыке и культуре. История появления LOFI и Study Girl" />
+    <meta name="theme-color" content="#FFC0CB" />
+    <link rel="stylesheet" href="./src/scss/style.scss" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon//apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+    <link rel="preload" href="/images/background.webp" as="image" />
+    <link rel="preload" href="/images/background2.webp" as="image" />
+    <link rel="preload" href="/images/background3.webp" as="image" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="wrapper__body">
+        <header class="header">
+          <div class="header__container _container">
+            <nav class="header__bar bar">
+              <ul class="bar__list">
+                <li class="bar__item">
+                  <a class="bar__link" href="#history">История<br />SG</a>
+                </li>
+                <li class="bar__item">
+                  <a class="bar__link" href="#video">SG<br />видео</a>
+                </li>
+                <li class="bar__item">
+                  <a class="bar__link" href="#pictures">Арты <br />SG</a>
+                </li>
+                <li class="bar__item">
+                  <a class="bar__link" href="#anketa">Анкета<br />LO-FI</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+
+        <aside class="sidebar-links">
+          <a class="sidebar-links__link" href="https://www.youtube.com/watch?v=jfKfPfyJRdk" target="_blank">
+            <img src="/images/svg/phones.svg" alt="LO-FI трансляция" title="LO-FI трансляция" width="40" height="40"
+          /></a>
+          <a
+            class="sidebar-links__link"
+            href="https://aliexpress.ru/wholesale?SearchText=Lofi&g=y&page="
+            target="_blank"
+          >
+            <img
+              src="/images/svg/t-shirt.svg"
+              alt="товары LO-FI"
+              title="Товары с символикой LO-FI"
+              width="40"
+              height="40"
+          /></a>
+          <a
+            class="sidebar-links__link"
+            href="https://www.film.ru/compilation/100-luchshih-polnometrazhnyh-anime"
+            target="_blank"
+          >
+            <img src="/images/svg/catsil.svg" alt="фильмы аниме" title="Фильмы аниме" width="70" height="40"
+          /></a>
+          <a class="sidebar-links__link" href="https://lofigirl.com/" target="_blank">
+            <img src="/images/svg/lofigirl.svg" alt="lofi girl" title="lofigirl.com" width="70" height="40"
+          /></a>
+        </aside>
+
+        <aside class="sidebar-mode">
+          <div class="sidebar-mode__cat">
+            <img src="/images/svg/cat.svg" alt="Интерактивный кот" />
+          </div>
+          <div class="sidebar-mode__mode">
+            <button id="pink" class="sidebar-mode__button">
+              <img src="/images/svg/moon-pink.svg" alt="Розовая тема" />
+            </button>
+            <button id="green" class="sidebar-mode__button">
+              <img src="/images/svg/moon-green.svg" alt="Зеленая тема" />
+            </button>
+            <button id="yellow" class="sidebar-mode__button">
+              <img src="/images/svg/moon-yellow.svg" alt="Желтая тема" />
+            </button>
+          </div>
+        </aside>
+
+        <main class="main">
+          <section class="content">
+            <div class="content__container _container">
+              <h1 class="content__title title title_h1">LO-FI</h1>
+              <div class="content__text text">
+                <p style="font-weight: bold; margin: 0">
+                  <span style="text-shadow: 0 0 10px hotpink">Lo-Fi или лоу-фай</span> (от англ. low fidelity — «низкое
+                  качество») — направление в музыке, для которого характерно низкое качество звука и джазовые аккорды.
+                </p>
+                <label class="content__source">
+                  (Источник:&nbsp;
+                  <a href="https://ru.wikipedia.org/wiki/Lo-Fi" target="_blank" title="открыть Википедию">Википедия</a>)
+                </label>
+                <ul class="content__list list-content">
+                  <li class="list-content__item">
+                    Феномен лоу-фай стал альтернативой звуковой эстетике Hi-Fi, для которой было характерно стремление к
+                    наиболее точному звуковому воспроизведению, близкому к оригиналу.
+                  </li>
+                  <li class="list-content__item">
+                    Идеи Lo-Fi получили распространение в 1980-х годах и привели к созданию одноимённого
+                    самостоятельного направления в музыке.
+                  </li>
+                  <li class="list-content__item">
+                    Лоу-фай музыканты предпочитали записывать всё сразу и минимизировать дальнейшие вмешательства в
+                    запись.
+                  </li>
+                </ul>
+              </div>
+              <a id="history"></a>
+              <h2 class="content__title title">История создания Study Girl</h2>
+              <div class="content__text text">
+                <p>
+                  На самом деле авторы каналов YouTube с lo-fi хип-хопом используют в качестве обложек стримов и
+                  микстейпов самых разных персонажей, некоторые вообще обходятся без каких-либо героев. Примерно в 2017
+                  году визуальный ряд трансляций стал переплетаться с аниме-культурой — на обложках появились кадры из
+                  мультфильмов «Ковбой Бибоп» и «Принцесса Мононоке».
+                </p>
+                <p>
+                  Кто первым сделал героем музыкальных трансляций девушку Study Girl, сказать точно нельзя. Но известно,
+                  что авторы искали вдохновение в японской анимации.
+                </p>
+                <p>
+                  Каноническую Study Girl нарисовал для канала ChilledCow 27-летний художник Хуан Пабло Мачадо (Juan
+                  Pablo Machado). Результатом работы стала 80-секундная анимация, где Study Girl пишет конспект,
+                  переворачивает страницы, немного меняет положение и изредка поглядывает в окно. Раз в несколько часов
+                  в трансляции меняется время суток. «Сначала она вообще училась только ночью в дождь, из-за чего в окно
+                  ничего не было видно. Это просто сэкономило мне время. Но затем мы добавили деталей и смену дня и
+                  ночи», — отметил Мачадо. Погружённая в учёбу девушка стала узнаваемым образом, который видели миллионы
+                  зрителей lo-fi стримов. Учитывая, что ChilledCow — самый популярный канал из аналогов, героиня для
+                  многих стала символом вообще всех подобных трансляций.
+                </p>
+                <p>
+                  8 апреля 2023 года стрим неожиданно прервался, а вместе с ним пропала девочка, которая сидит за столом
+                  в наушниках и что‑то записывает. Пользователи заметили, как 8 апреля девочка из стрима неожиданно
+                  повернулась в сторону окна и начала смотреть в окно дома напротив, где мигает голубой свет. Вставка,
+                  нарушившая общий сюжет стрима, продлилась чуть более 30 секунд. Затем выяснилось, что мигающий свет
+                  являлся ссылкой на сайт LofiWorld, переданный с помощью азбуки Морзе. На этом сайте шел отсчет до
+                  загрузки приложения. После этой ставки на стриме показывалась пустая комната, в которой на часах шел
+                  отсчет, завершившийся в 20:00 11 апреля.
+                </p>
+                <p>
+                  По истечению таймера, в кадре появился мальчик с собакой. Сначала зрители подумали, что создатели
+                  канала решили заменить персонажа, но вскоре оказалось, что парень живёт в доме напротив девушки, а она
+                  вернулась на трансляцию.
+                </p>
+              </div>
+              <a id="video"></a>
+              <div class="content__video video">
+                <div class="video__container">
+                  <video class="video__mp4" src="/media/window.mp4" controls></video>
+                </div>
+              </div>
+              <div class="content__text text">
+                <p>
+                  У десятков каналов с музыкой для учёбы появились свои Study Girl, а «классическую» уже несколько лет
+                  переосмысляют в виде артов. В соцсетях ChilledCow каждую неделю публикуют новые фанатские рисунки,
+                  которые добавляют популярному образу новые детали. Любители Lo-fi во многих странах мира создают свои
+                  версии o-fi Study Girl. Вот некоторые из них:
+                </p>
+              </div>
+              <div class="content__pictures pictures">
+                <a id="pictures"></a>
+                <figure class="pictures__item pictures__item_pic1">
+                  <picture>
+                    <source media="(max-width:450px)" srcset="/images//pic1-450.webp" />
+                    <source media="(max-width:700px)" srcset="/images//pic1-700.webp" />
+                    <source media="(max-width:900px)" srcset="/images//pic1-1400.webp" />
+                    <img id="pic1" src="/images/pic1-1400.jpg" alt="Lo-fi Study girl - Франция, оригинал" />
+                  </picture>
+                  <figcaption>
+                    Самая первая версия Lo-fi study girl от её создателя — Хуана Пабло Мачадо. В окне - ночь, потому что
+                    рисовал художник в сжатые сроки
+                  </figcaption>
+                </figure>
+                <figure class="pictures__item">
+                  <picture>
+                    <source media="(max-width:450px)" srcset="/images//pic2-450.webp" />
+                    <source media="(max-width:700px)" srcset="/images//pic2-700.webp" />
+                    <source media="(max-width:900px)" srcset="/images//pic2-1200.webp" />
+                    <img id="pic2" src="/images/pic2-1200.webp" alt="Lo-fi Study girl - Франция, оригинал" />
+                  </picture>
+                  <figcaption>
+                    Это тоже версия от создателя. В окне — Круа-Русс — район в северной части французского города Лиона,
+                    где жил художник
+                  </figcaption>
+                </figure>
+                <figure class="pictures__item">
+                  <picture>
+                    <source media="(max-width:450px)" srcset="/images/pic3-450.webp" />
+                    <source media="(max-width:700px)" srcset="/images/pic3-700.webp" />
+                    <source media="(max-width:900px)" srcset="/images/pic3-1400.webp" />
+                    <img id="pic3" src="/images/pic3-1400.jpg" alt="Lo-fi Study girl - Румыния" />
+                  </picture>
+                  <figcaption>
+                    Это румынская версия Lo-fi study girl. В окне — панорама румынского города Сибиу, хорошо видна башня
+                    Собора Святой Марии
+                  </figcaption>
+                </figure>
+                <figure class="pictures__item pictures__item_pic4">
+                  <picture>
+                    <source media="(max-width:450px)" srcset="/images/pic4-450.webp" />
+                    <source media="(max-width:700px)" srcset="/images/pic4-700.webp" />
+                    <source media="(max-width:900px)" srcset="/images/pic4-1400.webp" />
+                    <img id="pic4" src="/images/pic4-1400.jpg" alt="Lo-fi Study girl - Азия" />
+                  </picture>
+                  <figcaption>Азиатская версия Lo-fi study girl. Информации о ней крайне мало</figcaption>
+                </figure>
+              </div>
+            </div>
+          </section>
+
+          <div class="versions">
+            <div class="versions__container _container">
+              <div class="versions__text text">
+                <p>Здесь еще интересные версии Lo-fi Study Girl:</p>
+              </div>
+              <div class="versions__swiper swiper swiper-container">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper__wrapper swiper-wrapper">
+                  <div class="swiper__slide swiper-slide">
+                    <figure>
+                      <picture>
+                        <source type="image/webp" srcset="/images/Italy-700.webp" />
+                        <img src="/images/Italy-700.jpg" alt="Lo-fi Study girl - Италия" />
+                      </picture>
+                      <figcaption>Италия</figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper__slide swiper-slide">
+                    <figure>
+                      <picture>
+                        <source type="image/webp" srcset="/images/France-700.webp" />
+                        <img src="/images/France-700.jpg" alt="Lo-fi Study girl - Франция" />
+                      </picture>
+                      <figcaption>Франция</figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper__slide swiper-slide">
+                    <figure>
+                      <picture>
+                        <source type="image/webp" srcset="/images/Bulgaria-700.webp" />
+                        <img src="/images/Bulgaria-700.jpg" alt="Lo-fi Study girl - Болгария" />
+                      </picture>
+                      <figcaption>Болгария</figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper__slide swiper-slide">
+                    <figure>
+                      <picture>
+                        <source type="image/webp" srcset="/images/Estonia-700.webp" />
+                        <img src="/images/Estonia-700.jpg" alt="Lo-fi Study girl - Эстония" />
+                      </picture>
+                      <figcaption>Эстония</figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper__slide swiper-slide">
+                    <figure>
+                      <picture>
+                        <source type="image/webp" srcset="/images/Greece-700.webp" />
+                        <img src="/images/Greece-700.jpg" alt="Lo-fi Study girl - Греция" />
+                      </picture>
+                      <figcaption>Греция</figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper__slide swiper-slide">
+                    <figure>
+                      <picture>
+                        <source type="image/webp" srcset="/images/Netherlands-700.webp" />
+                        <img src="/images/Netherlands-700.jpg" alt="Lo-fi Study girl - Нидерланды" />
+                      </picture>
+                      <figcaption>Нидерланды</figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper__slide swiper-slide">
+                    <figure>
+                      <picture>
+                        <source type="image/webp" srcset="/images/San-Diego-700.webp" />
+                        <img src="/images/San-Diego-700.jpg" alt="Lo-fi Study girl - США (Сан-Диего)" />
+                      </picture>
+                      <figcaption>США<br />(Сан-Диего)</figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper__slide swiper-slide">
+                    <figure>
+                      <picture>
+                        <source type="image/webp" srcset="/images/Scotland-700.webp" />
+                        <img src="/images/Scotland-700.jpg" alt="Lo-fi Study girl - Шотландия" />
+                      </picture>
+                      <figcaption>Шотландия</figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper__slide swiper-slide">
+                    <figure>
+                      <picture>
+                        <source type="image/webp" srcset="/images/Hogwarts-700.webp" />
+                        <img src="/images/Hogwarts-700.jpg" alt="Lo-fi Study girl - Хогвартс" />
+                      </picture>
+                      <figcaption>Хогвартс</figcaption>
+                    </figure>
+                  </div>
+                  <div class="swiper__slide swiper-slide">
+                    <figure>
+                      <picture>
+                        <source type="image/webp" srcset="/images/Germany.webp" />
+                        <img src="/images/Germany.jpg" alt="Lo-fi Study girl - Германия" />
+                      </picture>
+                      <figcaption>Германия</figcaption>
+                    </figure>
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div>
+          </div>
+
+          <a id="anketa"></a>
+          <section class="questionnaire">
+            <div class="questionnaire__container _container">
+              <form class="questionnaire__form form" action="#" id="form">
+                <div class="form__intro">
+                  <h3 class="form__title">Расскажите нам о Ваших предпочтениях</h3>
+                  <b>(поля со * обязательны к заполнению)</b>
+                </div>
+
+                <fieldset class="form__item">
+                  <legend class="form__item-title">О Вас</legend>
+                  <div class="form__input-wrapper">
+                    <input
+                      class="form__input _req _name"
+                      type="text"
+                      id="formName"
+                      name="name"
+                      placeholder="Гарри Поттер"
+                    />
+                    <label for="formName" class="form__label">Ваше имя и фамилия</label>
+                  </div>
+                  <div class="form__input-wrapper">
+                    <input class="form__input" type="date" id="formDate" name="date" />
+                    <label for="formDate" class="form__label">Ваша дата рождения</label>
+                  </div>
+                  <div class="form__input-wrapper">
+                    <input class="form__input _req _email" type="text" id="formEmail" name="email" />
+                    <label for="formEmail" class="form__label">Ваша эл. почта</label>
+                  </div>
+                </fieldset>
+
+                <fieldset class="form__item">
+                  <legend class="form__item-title">Ваше отношение к Lo-fi</legend>
+
+                  <div class="form__label">Вам нравится Lo-fi?</div>
+                  <div class="form__options options">
+                    <div class="options__item">
+                      <input type="radio" id="formYes" value="yes" name="like" checked class="options__input" />
+                      <label for="formYes" class="options__label"><span>Да</span></label>
+                    </div>
+                    <div class="options__item">
+                      <input type="radio" id="formNo" name="like" class="options__input" />
+                      <label for="formNo" class="options__label"><span>Нет</span></label>
+                    </div>
+                  </div>
+
+                  <div class="form__label">Вы слушали кого-то из этих исполнителей?</div>
+                  <div class="form__checkbox checkbox">
+                    <div class="checkbox__item">
+                      <input type="checkbox" class="checkbox__input" id="REM" name="musicband" checked />
+                      <label for="REM" class="checkbox__label"><span>R.E.M.</span></label>
+                    </div>
+                    <div class="checkbox__item">
+                      <input type="checkbox" class="checkbox__input" id="PussyGalore" name="musicband" />
+                      <label for="PussyGalore" class="checkbox__label"><span>Pussy Galore</span></label>
+                    </div>
+                    <div class="checkbox__item">
+                      <input type="checkbox" class="checkbox__input" id="BeatHappening" name="musicband" />
+                      <label for="BeatHappening" class="checkbox__label"><span>Beat Happening</span></label>
+                    </div>
+                    <div class="checkbox__item">
+                      <input type="checkbox" class="checkbox__input" id="RoyalTrux" name="musicband" />
+                      <label for="RoyalTrux" class="checkbox__label"><span>Royal Trux</span></label>
+                    </div>
+                  </div>
+
+                  <div class="form__range range">
+                    <label for="rangeTrack" class="range__label">
+                      Как Вы оцените Lo-fi? <br />(0 - отвратительно, 10 - потрясающе)
+                    </label>
+                    <span class="range__wrapper">
+                      <input
+                        class="range__track"
+                        id="rangeTrack"
+                        name="range"
+                        type="range"
+                        min="0"
+                        max="10"
+                        value="5"
+                      />
+                      <span id="rangeValue" class="range__value">5</span>
+                    </span>
+                  </div>
+
+                  <div class="form__input-wrapper">
+                    <textarea class="form__textarea" id="formWhyLofi" name="whyLofi">
+Я считаю Lo-fi  интересным музыкальным и культурным явлением
+                    </textarea>
+                    <label for="formWhyLofi" class="form__label">Почему Вам нравится/не нравится Lo-fi?</label>
+                  </div>
+                </fieldset>
+
+                <fieldset class="form__item">
+                  <legend class="form__item-title">Ваши музыкальные вкусы</legend>
+                  <div class="form__input-wrapper">
+                    <input type="text" class="form__input" id="formGenre" name="genre" list="genreselect" />
+                    <datalist id="genreselect">
+                      <option value="Попса"></option>
+                      <option value="Рок"></option>
+                      <option value="Тяжелый рок"></option>
+                      <option value="Джаз"></option>
+                      <option value="Электронная музыка"></option>
+                      <option value="Фолк"></option>
+                    </datalist>
+                    <label for="formGenre" class="form__label">Ваш любимый жанр музыки:</label>
+                  </div>
+                  <div class="form__input-wrapper">
+                    <textarea class="form__textarea" id="formWhyGenre" name="whyGenre">
+Эта музыка поднимает мне настроение
+                    </textarea>
+                    <label for="formWhyGenre" class="form__label">Почему вы предпочитаете этот жанр?</label>
+                  </div>
+                </fieldset>
+
+                <fieldset class="form__item form__item_agreement">
+                  <input type="checkbox" class="checkbox__input _req" id="formAgreement" name="agreement" checked />
+                  <label for="formAgreement" class="checkbox__label"
+                    ><span
+                      >Я согласен на обработку персональных данных в соответствии с <a href="#">Условиями*</a></span
+                    ></label
+                  >
+                </fieldset>
+
+                <button class="form__button button-form" type="submit">
+                  <span class="button-form__flipper">
+                    <span class="button-form__flipper-object">
+                      <span class="button-form__panel">Готово?</span>
+                      <span class="button-form__panel button-form__panel_back">Отправить</span>
+                    </span>
+                  </span>
+                </button>
+              </form>
+            </div>
+          </section>
+        </main>
+      </div>
+      <footer class="footer">
+        <div class="footer__container _container">
+          <img class="footer__star" id="star" src="./images/svg/star.svg" alt="Звезда" />
+          <span class="footer__text">2022-2023 гг. Екатерина У.</span>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script type="module" src="./src/js/main.js"></script>
+  </body>
+</html>
