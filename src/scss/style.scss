@@ -103,7 +103,16 @@ html {
   --box-shadow-h: 0 0 15px pink;
   -webkit-tap-highlight-color: transparent;
 }
-
+.bg {
+  background-image: url("../../public/images/background.webp");
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  transition: background 0.5s ease 0s;
+}
 body {
   color: rgb(30, 10, 30);
   font-family: ZapusSans, Arial, sans-serif;
@@ -113,17 +122,11 @@ body {
 }
 
 .wrapper {
+  width: 100%;
+  position: absolute;
   overflow: hidden;
   padding: 0;
-  padding-top: env("safe-area-inset-top");
-  background-image: url("../../public/images/background.webp");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: right top;
-  background-repeat: no-repeat;
   scroll-behavior: smooth;
-  margin: 0;
-  transition: background 0.5s ease 0s;
 }
 
 .wrapper__body {
@@ -147,7 +150,7 @@ body {
 }
 //========================================================================================================================================================
 
-.green .wrapper {
+.green .bg {
   background-image: url("../../public/images/background2.webp");
   background-position: left top;
 }
@@ -164,7 +167,7 @@ body {
   filter: hue-rotate(-120deg);
 }
 
-.yellow .wrapper {
+.yellow .bg {
   background-image: url("../../public/images/background3.webp");
   background-position: left bottom;
 }
