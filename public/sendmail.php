@@ -4,14 +4,14 @@ use PHPMailer\PHPMailer\Exception;
 
 require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
-require 'phpmailer/src/SMTP.php';
+//require 'phpmailer/src/SMTP.php';
 
 $mail = new PHPMailer(true);
 $mail->Charset='UTF-8';
 $mail->setLanguage ('ru', 'phpmailer/language/');
 $mail->IsHTML(true);
 
-// Настройки SMTP
+/*// Настройки SMTP
 $mail->isSMTP();
 $mail->SMTPAuth = true;
 $mail->SMTPDebug = 0;
@@ -20,13 +20,13 @@ $mail->Host = 'ssl://smtp.mail.ru';
 $mail->Port = 465;
 $mail->Username = 'vesna_9696@mail.ru';
 $mail->Password = '2128506etomoi';
-
+*/
 //От кого письмо
 $mail->setFrom('vesna_9696@mail.ru', "LOFI");
 //Кому отправить
 $mail->addAddress('e_ukhova@inbox.ru');
 //Тема письма
-$mail->Subject = 'Привет! Это сообщение со страницы Lo-fi'
+$mail->Subject = 'Привет! Это сообщение со страницы Lo-fi';
 
 $like = "Нравится";
 if($_POST['like']=="formNo") {
